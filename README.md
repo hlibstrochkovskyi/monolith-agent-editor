@@ -64,7 +64,7 @@ The platform is engineered using a modern, type-safe stack designed for performa
 ### Installation
 
 ```bash
-git clone https://github.com/your-repo/work-studio.git
+git clone [https://github.com/your-repo/work-studio.git](https://github.com/hlibstrochkovskyi/monolith-agent-editor.git)
 cd work-studio
 npm install
 ```
