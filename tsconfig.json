@@ -1,0 +1,38 @@
+{
+    "compilerOptions": {
+        "strict": true,
+        "target": "ES2022",
+        "module": "ESNext",
+        "moduleResolution": "bundler",
+        "allowSyntheticDefaultImports": true,
+        "esModuleInterop": true,
+        "skipLibCheck": true,
+        "resolveJsonModule": true,
+        "isolatedModules": true,
+        "noEmit": true,
+        "jsx": "react-jsx",
+        "baseUrl": ".",
+        "paths": {
+            "@/*": [
+                "src/*"
+            ],
+            "@/components/*": [
+                "src/components/*"
+            ],
+            "@/lib/*": [
+                "src/lib/*"
+            ],
+            "@/stores/*": [
+                "src/stores/*"
+            ]
+        }
+    },
+    "include": [
+        "src/**/*",
+        "electron/**/*"
+    ],
+    "exclude": [
+        "node_modules",
+        "out"
+    ]
+}
